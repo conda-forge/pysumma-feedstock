@@ -9,7 +9,7 @@ source:
   sha256: d55e5c372bf9d9b196bfbb591f0bfeac1af51eeb1f58d5b6d95403786542b067
   
 build:
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . -vv"
   skip: true  # [win]
 
@@ -31,7 +31,7 @@ requirements:
     - cartopy
     - shapely
     - seaborn
-    - matplotlib
+    - matplotlib-base
     - geopandas
     - pandas
     - pip
