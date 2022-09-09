@@ -1,4 +1,4 @@
-{% set version = "3.0.3" %}
+{% set version = "3.1.0" %}
 
 package:
   name: pysumma
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/p/pysumma/pysumma-{{ version }}.tar.gz
-  sha256: d55e5c372bf9d9b196bfbb591f0bfeac1af51eeb1f58d5b6d95403786542b067
+  sha256: 773082df4b551e1b9650c127883700df0cf8f3ac772750a09ca305fad8e26342
   
 build:
-  number: 2
+  number: 0
   script: "{{ PYTHON }} -m pip install . -vv"
   noarch: python
 
